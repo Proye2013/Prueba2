@@ -1,0 +1,308 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jMenuBar1" noResource="true"/>
+      </Properties>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="JMenuArchivo">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuArchivo.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuArchivo.text"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuArchivo.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuArchivo" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItIniciarSesion">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+I"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItIniciarSesion.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItIniciarSesion.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItIniciarSesion.text"/>
+                <Property name="name" type="java.lang.String" value="JMItIniciarSesion" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItIniciarSesionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItCerrarSesion">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+X"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItCerrarSesion.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItCerrarSesion.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItCerrarSesion.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="JMItCerrarSesion" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItCerrarSesionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRegUsuarios">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+U"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRegUsuarios.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRegUsuarios.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRegUsuarios.text"/>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="name" type="java.lang.String" value="JMItRegUsuarios" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRegUsuariosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItSalir">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItSalir.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItSalir.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItSalir.text"/>
+                <Property name="name" type="java.lang.String" value="JMItSalir" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItSalirActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuCliente">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuCliente.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuCliente.text"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuCliente.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuCliente" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRegCliente">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+C"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRegCliente.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRegCliente.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRegCliente.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRegCliente" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRegClienteActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuPago">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuPago.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuPago.text"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuPago.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuPago" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRegPago">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRegPago.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRegPago.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRegPago.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRegPago" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRegPagoActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItEmisionOrdenes">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+O"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItEmisionOrdenes.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItEmisionOrdenes.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItEmisionOrdenes.text"/>
+                <Property name="name" type="java.lang.String" value="JMItEmisionOrdenes" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItEmisionOrdenesActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuReportes">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuReportes.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuReportes.text"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuReportes.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuReportes" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMenuReportesActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRepIngresos">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRepIngresos.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRepIngresos.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRepIngresos.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRepIngresos" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRepIngresosActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRepPagosCliente">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRepPagosCliente.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRepPagosCliente.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRepPagosCliente.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRepPagosCliente" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRepPagosClienteActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRepOrdenesEnviadas">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRepOrdenesEnviadas.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRepOrdenesEnviadas.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRepOrdenesEnviadas.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRepOrdenesEnviadas" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRepOrdenesEnviadasActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuHerramientas">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuHerramientas.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuHerramientas.text"/>
+            <Property name="enabled" type="boolean" value="false"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuHerramientas.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuHerramientas" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItCalculadora">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItCalculadora.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItCalculadora.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItCalculadora.text"/>
+                <Property name="name" type="java.lang.String" value="JMItCalculadora" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItCalculadoraActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRespaldoBd">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+B"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRespaldoBd.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRespaldoBd.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRespaldoBd.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRespaldoBd" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRespaldoBdActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItRestaurarBd">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+R"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItRestaurarBd.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItRestaurarBd.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItRestaurarBd.text"/>
+                <Property name="name" type="java.lang.String" value="JMItRestaurarBd" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItRestaurarBdActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="JMenuAyuda">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="JMenuAyuda.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="JMenuAyuda.text"/>
+            <Property name="font" type="java.awt.Font" resourceKey="JMenuAyuda.font"/>
+            <Property name="name" type="java.lang.String" value="JMenuAyuda" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItAyuda">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItAyuda.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItAyuda.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItAyuda.text"/>
+                <Property name="name" type="java.lang.String" value="JMItAyuda" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItAyudaActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="JMItAcercade">
+              <Properties>
+                <Property name="font" type="java.awt.Font" resourceKey="JMItAcercade.font"/>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="JMItAcercade.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="JMItAcercade.text"/>
+                <Property name="name" type="java.lang.String" value="JMItAcercade" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="JMItAcercadeActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="705" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="523" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+</Form>
